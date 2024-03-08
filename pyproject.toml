@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ut353bt"
+version = "0.1.0"
+description = "UT353BT Decibel logging"
+authors = ["koivunen <github@koivunen.work>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+bleak = "^0.21.1"
+coloredlogs = "^15.0.1"
+aiomqtt = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
